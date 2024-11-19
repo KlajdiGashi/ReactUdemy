@@ -93,6 +93,46 @@ const editedHobbies = hobbies.map((item) => ({
 }));
 console.log(editedHobbies);
 
+const [firstName, lastName] = ["Klajdi", "Gashi"];
+
+//console.log(firstName);
+//console.log(lastName);
+
+const { name: usrName, age } = {
+  name: "Klajdi",
+  age: 21,
+};
+
+console.log(usrName);
+console.log(age);
+
+const newHobbies = ["Reading"];
+
+const mergedHobbiesDiff = [hobbies, newHobbies];
+const mergedHobbies = [...hobbies, ...newHobbies];
+
+console.log(mergedHobbies);
+console.log(mergedHobbiesDiff);
+
+const password = prompt("Your Password");
+
+if (password === "Hello") {
+  console.log("Hello works!");
+} else if (password === "hello") {
+  console.log("hello works");
+} else {
+  console.log("Access not granted");
+}
+
+const DummyList = ["Sports", "Cooking"];
+
+for (const dummy of DummyList) {
+  console.log(dummy);
+}
+
+//const firstName = userNameData[0];
+//const lastName = userNameData[1];
+
 /* let userMessage = "Hello World!";
 
 userMessage = "New Value";
