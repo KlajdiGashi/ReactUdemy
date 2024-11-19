@@ -67,6 +67,32 @@ const user1 = new User("Manuel", 35);
 
 console.log(user1);
 user1.greet();
+
+console.log("-------------------------------");
+
+const hobbies = ["Sports", "Cooking", "Reading"];
+
+console.log(hobbies[0]);
+
+hobbies.push("Working");
+console.log(hobbies);
+
+const index = hobbies.findIndex((item) => {
+  return item === "Sports";
+});
+
+const index1 = hobbies.findIndex((item) => item === "Cooking");
+
+console.log(index);
+console.log(index1);
+
+hobbies.map((item) => item + "!");
+
+const editedHobbies = hobbies.map((item) => ({
+  text: item,
+}));
+console.log(editedHobbies);
+
 /* let userMessage = "Hello World!";
 
 userMessage = "New Value";
