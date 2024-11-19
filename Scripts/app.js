@@ -1,4 +1,27 @@
-let userMessage = "Hello World!";
+function greetUser() {
+  console.log("Hello!");
+}
+
+function greetUserWithMessage(userName, userMessage) {
+  // console.log("Hello: " + userName + " " + userMessage);
+
+  return "Hi i am: " + userName + " " + userMessage;
+}
+
+greetUser();
+
+greetUserWithMessage("Klajdi", "How are you!");
+
+function combine(a, b, c) {
+  var result = (a * b) / c;
+
+  return result;
+}
+
+const abc = combine(22, 34, 4);
+console.log(abc);
+
+/* let userMessage = "Hello World!";
 
 userMessage = "New Value";
 
@@ -16,7 +39,7 @@ if (10 === 10) {
   console.log("Works");
 }
 
-/* 
+
 //import { apiKey } from "./util.js"; 
 import apiKey from "./util.js"
  import { otherExample, otherExample1 } from "./util.js";
