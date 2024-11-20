@@ -130,6 +130,27 @@ for (const dummy of DummyList) {
   console.log(dummy);
 }
 
+function init() {
+  function greet() {
+    console.log("Hi");
+  }
+
+  greet();
+}
+
+init();
+
+let userMessage = "Hello";
+userMessage = "Hello there!";
+
+userMessage = userMessage.concat("!!!");
+
+console.log(userMessage);
+
+const hobb = ["Sports", "Cooking"];
+hobb.push("Working");
+console.log(hobb);
+
 //const firstName = userNameData[0];
 //const lastName = userNameData[1];
 
