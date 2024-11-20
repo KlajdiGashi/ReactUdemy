@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 import reactImage from "./assets/react-core-concepts.png";
 import componentsImg from "./assets/components.png";
 import state from "./assets/state-mgmt.png";
 import config from "./assets/config.png";
 import jsxUI from "./assets/jsx-ui.png";
 
+=======
+>>>>>>> 94b648460c2ed82626f058f6daf2a5f9aad70af2
 const reactDescriptions = ["Fundamental", "Crucial", "Core"];
 
 function genRandomInt(max) {
@@ -14,7 +17,11 @@ function Header() {
   const description = reactDescriptions[genRandomInt(2)];
   return (
     <header>
+<<<<<<< HEAD
       <img src={reactImage} alt="Stylized atom" />
+=======
+      <img src="src/assets/react-core-concepts.png" alt="Stylized atom" />
+>>>>>>> 94b648460c2ed82626f058f6daf2a5f9aad70af2
       <h1>React Essentials</h1>
       <p>
         {description} React concepts you will need for almost any app you are
@@ -24,6 +31,7 @@ function Header() {
   );
 }
 
+<<<<<<< HEAD
 export const userData = {
   firstName: "Klajdi",
   lastName: "Gashi",
@@ -50,6 +58,8 @@ function CoreConcept(props) {
   );
 }
 
+=======
+>>>>>>> 94b648460c2ed82626f058f6daf2a5f9aad70af2
 function App() {
   return (
     <div>
